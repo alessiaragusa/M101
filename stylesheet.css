@@ -11,7 +11,7 @@
     height: 100vh;
 
     grid-template-columns: 20% 1fr 20%;
-    grid-template-rows:  15% 5% 1fr 10%;
+    grid-template-rows:  15% 5% 1fr 15%;
 
     grid-row-gap: 8px;
     grid-column-gap: 8px;
@@ -55,6 +55,13 @@ section {
     text-align: center;
     
 }
+
+footer {
+    text-align: start;
+}
+ p {
+     margin-left: 1rem;
+ }
 
 li {
     display: flex;
